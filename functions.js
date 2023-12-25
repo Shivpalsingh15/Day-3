@@ -27,3 +27,14 @@
 // console.log(ans);  output : [1, 3, 5, 7, 9];
 
 
+function outer(){
+    let b=10
+    function inner(){
+        let a = 20
+        console.log(a+b)
+    }
+    inner()
+}
+outer()
+
+//output 30
